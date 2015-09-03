@@ -1,0 +1,101 @@
+/*!
+ Theme Name:   Supaflors
+ Theme URI:    http://www.superflors.co.uk
+ Description:  Supaflors - a child theme of MedaCorp
+ Author:       Fred Bradley
+ Author URI:   http://swipe.digital
+ Template:     medacorp
+ Version:      1.0.0
+*/
+
+
+$supaflors_red: #9D4C58;
+$supaflors_blue: #455EAB;
+
+.header-style-2 nav.main_menu > ul > li > a {
+	font-size: 1.5em;
+	font-weight: 700 !important;
+}
+
+
+#nova-header {
+	background-color: #455EAB;
+	-webkit-transition: top 600ms ease;
+	-moz-transition: top 600ms ease;
+	transition: top 600ms ease;
+	background-position: bottom center;
+	background-repeat: repeat-x;
+	margin-top:0px;
+	margin-bottom: 30px;
+	.main-navigation {
+		background: darken($supaflors_blue, 10%) !important;
+		.container {
+			.main_menu {
+				font-family: Quicksand, sans-serif !important;
+				font-weight:700 !important;
+			}
+		}
+	}
+}
+header#header-sticky {
+	li.standard-menu {
+		margin-top: 15px;
+		a {
+			line-height: 2em !important;
+			border-top:0px;
+			border-bottom: 3px solid #fff;
+		}
+	}
+	.right-links>.search-box {
+		padding-top:10px !important;
+	}
+	
+	padding-top: 0px !important;
+}
+
+body #header-sticky.sticky-header {
+	background: #455EAB;
+}
+nav.main_menu>ul>li>a>span {
+	color: #fff;
+}
+
+.supaflors {
+	.red {
+		background: $supaflors_red;
+	}
+	.blue {
+		background: $supaflors_blue;
+	}
+}
+
+.search-box {
+	color:#fff !important;
+	.search-dropdown {
+		.slidebar-search-box {
+			max-width:300px !important;
+			.search-field {
+				width:200px !important;
+			}
+		}
+	}
+}
+.nova-heading-text.heading-style-5 {
+	margin-bottom: 20px;
+}
+.welcome-text-block {
+	p {
+		font-size:1.5em !important;
+		line-height: 1.5em !important;
+		font-family: Raleway;
+	}
+}
+.header-inner {
+	.mobile-menu-icon {
+/*		margin-top:10%;
+*/		
+	}
+	a {
+		color:#fff !important;
+	}
+}
