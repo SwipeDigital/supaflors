@@ -5,7 +5,7 @@
  Author:       Fred Bradley
  Author URI:   http://swipe.digital
  Template:     medacorp
- Version:      1.0.0
+ Version:      1.0.1
 */
 .header-style-2 nav.main_menu > ul > li > a {
   font-size: 1.5em;
@@ -45,6 +45,7 @@ nav.main_menu > ul > li > a > span {
 
 .supaflors .red {
   background: #9D4C58; }
+
 .supaflors .blue {
   background: #455EAB; }
 
@@ -65,8 +66,7 @@ nav.main_menu > ul > li > a > span {
 
 .header-inner .mobile-menu-icon {
   /*		margin-top:10%;
-  */ }
+*/ }
+
 .header-inner a {
   color: #fff !important; }
-
-/*# sourceMappingURL=style.css.map */
