@@ -12,6 +12,7 @@
 $supaflors_red: #9D4C58;
 $supaflors_blue: #455EAB;
 
+
 .header-style-2 nav.main_menu > ul > li > a {
 	font-size: 1.5em;
 	font-weight: 700 !important;
@@ -100,4 +101,8 @@ nav.main_menu>ul>li>a>span {
 	a {
 		color:#fff !important;
 	}
+}
+.page-lead {
+	font-size:2em;
+	line-height:2em;
 }
