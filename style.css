@@ -72,4 +72,8 @@ nav.main_menu > ul > li > a > span {
 .header-inner a {
   color: #fff !important; }
 
+.page-lead {
+  font-size: 2em;
+  line-height: 2em; }
+
 /*# sourceMappingURL=style.css.map */
