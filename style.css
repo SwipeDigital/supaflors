@@ -11,6 +11,9 @@
   font-size: 1.5em;
   font-weight: 700 !important; }
 
+body p {
+  line-height: 2em; }
+
 #nova-header {
   background-color: #455EAB;
   -webkit-transition: top 600ms ease;
@@ -45,7 +48,6 @@ nav.main_menu > ul > li > a > span {
 
 .supaflors .red {
   background: #9D4C58; }
-
 .supaflors .blue {
   background: #455EAB; }
 
@@ -66,7 +68,8 @@ nav.main_menu > ul > li > a > span {
 
 .header-inner .mobile-menu-icon {
   /*		margin-top:10%;
-*/ }
-
+  */ }
 .header-inner a {
   color: #fff !important; }
+
+/*# sourceMappingURL=style.css.map */
