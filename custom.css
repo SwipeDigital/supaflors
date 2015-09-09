@@ -1,1 +1,19 @@
-.test {}
+.page-lead  p {
+	line-height:2em !important;
+}
+@media (max-width:992px) {
+	.header-inner .mobile-menu-icon {
+		margin-top:10% !important;
+	}
+}
+
+footer > div > .footer.container div.textwidget>p {
+	font-size:1em !important;
+}
+.client-logos img {
+	padding:5px;
+	border: 5px solid #f1f1f1;
+}
+.client-logos img:hover {
+	padding:0px;
+}
