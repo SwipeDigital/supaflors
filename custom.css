@@ -7,8 +7,8 @@
 	}
 }
 
-footer > div > .footer.container div.textwidget>p {
-	font-size:1em !important;
+footer > div > .footer.container div.textwidget {
+	font-size:0.9em !important;
 }
 .client-logos img {
 	padding:5px;
@@ -17,3 +17,33 @@ footer > div > .footer.container div.textwidget>p {
 .client-logos img:hover {
 	padding:0px;
 }
+
+
+ /*==========  Non-Mobile First Method  ==========*/
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+		html {
+			font-size:0.9em;
+		}
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
