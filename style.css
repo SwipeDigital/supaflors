@@ -14,6 +14,9 @@
 body p {
   line-height: 2em; }
 
+footer .widget_text .textwidget p {
+  font-size: 0.8em; }
+
 #nova-header {
   background-color: #455EAB;
   -webkit-transition: top 600ms ease;
